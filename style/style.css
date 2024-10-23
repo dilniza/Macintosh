@@ -1,0 +1,713 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header start */
+header {
+    background: url(../img/home/header.jpg) no-repeat center bottom / cover;
+    height: 670px;
+}
+
+header .header_menu {
+    padding-top: 20px;
+}
+
+header .header_menu nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 16px;
+}
+
+header .header_menu nav ul li {
+    font-family: 'Montserrat Medium';
+    font-size: 17px;
+    font-weight: 500;
+}
+
+header .header_menu nav ul li a {
+    text-decoration: none;
+    color: #191919;
+}
+
+header .header_menu nav ul li a:hover,
+header .header_menu nav ul li a.active {
+    color: #007d2f;
+}
+
+
+header .header_title {
+    margin-top: 70px;
+}
+
+header .header_title h1 {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 36px;
+    color: #1d1d1d;
+    margin-bottom: 20px;
+}
+
+header .header_title p {
+    font-family: 'Montserrat Thin';
+    font-weight: 100;
+    line-height: 26px;
+    font-size: 16px;
+    color: #787878;
+}
+
+header .header_title .btn {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    color: white;
+}
+
+header .header_title button {
+    width: 194px;
+    height: 55px;
+    padding: 16px 47px;
+    background: #007d2f;
+    border-radius: 0;
+    border: none;
+}
+
+header .header_title .btn:hover {
+    background: #0ec253;
+    box-shadow: 0 0 10px black;
+    border: darkgreen;
+}
+
+
+/* main start */
+main .about .sign {
+    text-align: center;
+    margin-top: 90px;
+}
+
+main .about .sign h2 {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 35px;
+    color: #191919;
+    margin-bottom: 30px;
+}
+
+main .about .sign p {
+    font-family: 'Nunito Sans Regular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+main .about .sign img {
+    margin-top: 42px;
+    margin-bottom: 40px;
+}
+
+
+main .about .skills {
+    background: #f8f9f9;
+    width: 100%;
+}
+
+main .about .skills .prog {
+    margin: 100px 0;
+    line-height: 66px;
+}
+
+main .about .skills .prog h3 {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 30px;
+    color: #171717;
+}
+
+main .about .skills .prog span {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    margin-top: 25px;
+}
+
+main .about .skills .prog .progress-bar {
+    background: #007d2f;
+}
+
+main .about .skills .prof {
+    width: 100%;
+}
+
+
+
+main .about .achievements {
+    background: #007d2f;
+    padding: 60px 0;
+}
+
+main .about .achievements .achieve {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+main .about .achievements .achieve .ikonka{
+    padding: 5px 10px;
+}
+
+main .about .achievements .achieve .ikonka .fas,
+.far {
+    display: block;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+main .about .achievements .achieve .ikonka span {
+    font-size: 20px;
+}
+
+main .about .achievements .achieve .ikonka p {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+
+main .backimg .img_fluid {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    cursor: zoom-in;
+}
+
+main .backimg .img_fluid img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+main .backimg .img_fluid:hover .hovericon {
+    transform: rotateY(0deg)
+}
+
+main .backimg .img_fluid .hovericon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0000004b;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(90deg);
+    transition: 1s;
+}
+
+main .backimg .img_fluid .hovericon .far {
+    color: #ffffffe7;
+    font-size: 50px;
+}
+
+
+main .work {
+    background: #007d2f;
+    padding: 40px 0;
+}
+
+main .work a.morework {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main .process {
+    padding: 30px 0;
+    text-align: center;
+}
+
+main .process h3 {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 44px;
+    color: #191919;
+}
+
+main .process .p {
+    font-family: 'Nunito Sans Regular';
+    font-weight: 400;
+    font-size: 23px;
+    color: #787878;
+    line-height: 30px;
+}
+
+
+.services {
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+
+.services .serve {
+    width: 255px;
+    text-align: center;
+}
+
+.services .serve span {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Montserrat Medium';
+    color: #191919;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.services .serve p {
+    font-family: 'Nunito Sans Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #787878;
+}
+
+.services .serve i {
+    font-size: 40px;
+    color: #666666;
+}
+
+/* section start */
+section .section {
+    background: #007d2f;
+    height: 495px;
+}
+
+section .carousel-indicators {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    color: white;
+    bottom: -180px;
+    justify-content: center;
+}
+
+section .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    color: #867a76;
+    border: 0px;
+    border-radius: 50%;
+}
+
+section .carousel-item {
+    text-align: center;
+    margin-top: 200px;   
+}
+section .carousel-item p {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    color: white;
+    font-size: 25px;
+}
+section .carousel-item span {
+    font-family: 'Montserrat Medium';
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+
+.nproject {
+    margin: 55px 0;
+}
+
+section .project {
+    background: #f5f5f5;
+    padding: 20px 0 100px;
+}
+
+section .project .title {
+    text-align: center;
+}
+
+section .project .title h2 {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 30px;
+    color: #1d1d1d;
+
+}
+
+section .project .title p {
+    padding: 15px 0;
+    font-family: 'Nunito Sans Regular';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #787878;
+}
+section .form {
+    margin: auto;
+}
+section .form .formname {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .form .formname input {
+    width: 344px;
+    padding: 17px 13px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 0px;
+}
+
+section .form .formtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+section .form .formtitle input {
+    width: 100%;
+    padding: 17px 13px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 0px;
+}
+
+section .form .btn {
+    text-align: center;
+    margin-top: 15px;
+    width: 194px;
+    height: 60px;
+    padding: 16px 25px;
+    background: #007d2f;
+    border-radius: 0;
+    border: none;
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 15px;
+}
+section .form .butn {
+    display: flex;
+    justify-content: center;
+}
+section .form .btn:hover {
+    background: #0ec253;
+    box-shadow: 0 0 10px black;
+    border: darkgreen;
+}
+
+/* footer start */
+footer {
+    padding: 100px 0;
+    background: black;
+    color: white;
+}
+footer .footer h4 {
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+footer .footer p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+    margin-bottom: 0;
+}
+footer .footer a {
+    text-decoration: none;
+    font-family: 'Nunito Sans Regular';
+    font-size: 15px;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+footer .footer .linkmenu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* end */
+
+
+
+/* RESPONSE */
+
+/*  xxl = 1400px -... 1500px ...  */
+/*  xl = 1200px - 1200 -- 1399  */
+/*  lg = 992px - 992 -- 1199  */
+/*  md = 768px - 768 -- 991  */
+/*  sm = 576px - 576 -- 767  */
+/*  xs = 320 -- 575 */
+
+
+
+/* lg */
+@media (max-width: 1399px) {
+    main .about .achievements .achieve .ikonka .fas, .far {
+        display: block;
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    section .form .formname input {
+        width: 300px;
+    }
+    section .form .butn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    section .form .formname input {
+        width: 260px;
+    }
+    section .form .butn {
+        display: flex;
+        justify-content: center;
+    }
+    section .carousel-item p {
+        font-size: 15px;
+    }
+    section .carousel-item span {
+        font-size: 12px;
+    }
+    section .section {
+        height: 295px;
+    }
+    section .carousel-indicators {
+        bottom: -100px;
+    }
+    section .carousel-item {
+        text-align: center;
+        margin-top: 60px;   
+    }
+}
+
+
+/* md */
+@media (max-width: 991px) {
+    main .about .sign {
+        margin-top: 50px;
+    }
+    main .about .sign img {
+        margin-top: 22px;
+        margin-bottom: 30px;
+    }
+    main .about .achievements .achieve .ikonka .fas, .far {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    main .about .achievements .achieve .ikonka p {
+        font-size: 12px;
+        padding: 5px;
+    }
+    main .about .achievements {
+        padding: 30px 0;
+    }
+    main .about .skills .prog {
+        margin: 50px 0;
+    }
+    main .process h3 {
+        font-size: 30px;
+    }
+    .services .serve {
+        margin: 0 10px;
+    }
+    section .section {
+        height: 395px;
+    }
+    section .project {
+        padding: 20px 0 40px;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    footer .footer .linkmenu ul {
+        margin: 0 5px;
+    }
+    section .form .formname input {
+        width: 270px;
+    }
+    section .carousel-item p {
+        font-size: 15px;
+    }
+    section .carousel-item span {
+        font-size: 12px;
+    }
+    section .section {
+        height: 295px;
+    }
+    section .carousel-indicators {
+        bottom: -100px;
+    }
+    section .carousel-item {
+        text-align: center;
+        margin-top: 60px;   
+    }
+}
+
+
+
+/* sm */
+@media (max-width: 767px) {
+    footer {
+        padding: 70px 0;
+    }
+    footer .footer #link {
+        display: block;
+        margin: 10px 40px 30px;
+    }
+    .progress {
+        width: 100px;
+    }
+    main .about .skills .prog {
+        margin: 20px 0;
+    }
+    main .work a.morework {
+        font-size: 15px;
+    }
+    .services .serve p {
+        font-size: 12px;
+    }
+    .services .serve span {
+        font-size: 10px;
+    }
+    main .process h3 {
+        font-size: 20px;
+    }
+    section .project .title p {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    section .form .formname input {
+        width: 240px;
+    }
+    footer .footer .linkmenu ul {
+        margin: 15px 5px 10px;
+    }
+    section .carousel-item p {
+        font-size: 15px;
+    }
+    section .carousel-item span {
+        font-size: 12px;
+    }
+    section .section {
+        height: 295px;
+    }
+    section .carousel-indicators {
+        bottom: -100px;
+    }
+    section .carousel-item {
+        text-align: center;
+        margin-top: 60px;   
+    }
+}
+
+
+/*  xs = 320 -- 575 */
+@media (max-width:575px){
+    header .header_title h1 {
+        font-size: 24px;
+    }
+    header .header_title p {
+        font-size: 14px;
+    }
+    main .about .sign h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    main .about .sign p {
+        font-size: 12px;
+    }
+    main .about .skills .prog span {
+        margin-top: 5px;
+    }
+    main .process h3 {
+        font-size: 20px;
+    }
+    main .process p {
+        font-size: 12px;
+    }
+    .services #servicelink {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .nproject img.onv {
+        width: 40px;
+        height: 30px;
+    }
+    section .project .title h2 {
+        font-size: 20px;
+    }
+    section .project .title p {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    section .form .formname input {
+        width: 140px;
+        font-size: 14px;
+    }
+    section .form .formtitle input {
+        font-size: 14px;
+    }
+    footer .footer h4 {
+        text-align: center;
+        font-size: 15px;
+    }
+    footer .footer p {
+        margin: 5px 0;
+        text-align: center;
+        font-size: 13px;
+    }
+    footer .footer #link {
+        margin: auto;
+        text-align: center;
+    }
+    footer {
+        padding: 30px 0;
+    }
+    section .carousel-item p {
+        font-size: 15px;
+    }
+    section .carousel-item span {
+        font-size: 12px;
+    }
+    section .section {
+        height: 295px;
+    }
+    section .carousel-indicators {
+        bottom: -100px;
+    }
+    section .carousel-item {
+        text-align: center;
+        margin-top: 60px;   
+    }
+    .services .serve {
+        width: 80%;
+    }
+}
+
+@media (max-width:532px) {
+    main .about .achievements .achieve {
+        display: block;
+    }
+}
