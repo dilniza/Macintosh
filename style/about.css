@@ -1,0 +1,138 @@
+@import 'css/fonts.css';
+
+header {}
+
+
+.amelia {
+    margin-top: px;
+    background: #323232;
+    padding: 100px
+}
+
+.colorrr {
+    background: #ffffff
+}
+
+.ameliad {
+    font-size: 62px;
+    color: #ffffff;
+    font-family: 'monster-med';
+}
+
+.amelia p {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Nunito_san';
+}
+
+section {
+    width: 100%;
+}
+
+/************************/
+/*-----------icon-start----------*/
+.icon {
+    padding: 77px 0;
+    background: #007d2f;
+    margin-top: -24px;
+}
+
+.icon__logo-fal {
+    font-size: 50px;
+    color: white;
+}
+
+.icon__logo-nul,
+.icon__logo-project {
+  color: white;
+  font-weight: bold;
+}
+
+
+/*********/
+/*----------------Main-----------*/
+.bolacha {
+    height: 460px;
+}
+
+.bolacha_text {
+    margin-top: 150px;
+}
+
+.bolacha_text h4 {
+    font-family: 'monster-med';
+    font-size: 30px;
+    color: #171717;
+}
+
+.bolacha_text p {
+    font-family: 'Nunito_san';
+    font-size: 16px;
+    color: #787878;
+}
+
+
+/*****/
+/*------neada-------------*/
+
+
+.need_a {
+    margin-top: 100px;
+}
+
+.need_hash {
+    font-family: 'monster-med';
+    font-size: 30px;
+    color: black;
+}
+
+
+.need_p {
+    font-family: 'Nunito_san';
+    font-size: 16px;
+    color: #787878;
+}
+
+.need_but {
+    color: white;
+    background: #007d2f;
+    padding: 15px 42px;
+    margin-top: 41px;
+}
+
+
+footer {
+    background: #141414;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+
+.macint p {
+    color: white;
+}
+
+.macint h4 {
+    color: white;
+}
+
+.macintosh {
+    margin-top: 80px;
+}
+
+.hello {
+    margin-top: 80px;
+}
+
+.dribble {
+    margin-top: 80px;
+}
+
+.news {
+    margin-top: 80px;
+}
+
+
+.facebook {
+    margin-top: 80px;
+}
